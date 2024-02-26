@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: reklamescriptw00-medium, cursive;
+}
+
+h3 {
+    font-family: worksans-extralight, work sans, sans-serif;
+    letter-spacing: 0.15rem;
+    font-size: 20px;
+    color:#292929;
+}
+
+h4 {
+    font-family: futura-lt-w01-light, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    color: 8B0000;
+}
+
+.link {
+    text-decoration: none;
+}
