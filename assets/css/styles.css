@@ -1,12 +1,4 @@
 body {
-    /* background-color: #edad9e; */
-    /* background: repeating-linear-gradient(
-        45deg,
-        #ffffff,
-        #ffffff 10px,
-        #f0f0f0 10px,
-        #f0f0f0 20px
-    ); */
     background: linear-gradient(180deg, #ffdcd8, #f0f0f0);
     /* background: linear-gradient(45deg, #ffdcd8 25%, transparent 25%, transparent 75%, #ffdcd8 75%, #ffdcd8),
                 linear-gradient(45deg, #ffdcd8 25%, transparent 25%, transparent 75%, #ffdcd8 75%, #ffdcd8),
