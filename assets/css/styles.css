@@ -12,7 +12,7 @@ body {
 
 }
 
-h1 {
+.nombre {
     font-family: reklamescriptw00-medium, cursive;
     font-size: 50px;
     font-weight: bold;
@@ -35,4 +35,10 @@ h4 {
 
 .link {
     text-decoration: none;
+}
+
+@media(max-width: 768px){
+    .nombre {
+        font-size: 30px;
+    }
 }
