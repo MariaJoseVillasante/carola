@@ -1,44 +1,87 @@
-body {
-    background: linear-gradient(180deg, #ffdcd8, #f0f0f0);
-    /* background: linear-gradient(45deg, #ffdcd8 25%, transparent 25%, transparent 75%, #ffdcd8 75%, #ffdcd8),
-                linear-gradient(45deg, #ffdcd8 25%, transparent 25%, transparent 75%, #ffdcd8 75%, #ffdcd8),
-                linear-gradient(to bottom, #f9f1eb, #f9f1eb);
-    background-size: 20px 20px, 40px 40px, 100% 20px;
-    background-position: 0 0, 20px 20px, 0 0; */
-    /* background: linear-gradient(45deg, #f0f0f0 25%, transparent 25%, transparent 75%, #f0f0f0 75%, #f0f0f0),
-                linear-gradient(45deg, #f0f0f0 25%, transparent 25%, transparent 75%, #f0f0f0 75%, #f0f0f0);
-    background-size: 20px 20px; */
-    /* background: radial-gradient(circle, #ffdcd8 20%, #ffdcd8 80%, #ffdcd8); */
-
-}
-
-.nombre {
-    font-family: reklamescriptw00-medium, cursive;
-    font-size: 50px;
-    font-weight: bold;
-    color: #524e4e;
-}
-
-h3 {
-    font-family: worksans-extralight, work sans, sans-serif;
-    letter-spacing: 0.15rem;
-    font-size: 20px;
-    color:#524e4e;
-}
-
-h4 {
-    font-family: futura-lt-w01-light, sans-serif;
-    font-size: 15px;
-    letter-spacing: 0.05em;
-    color: 8B0000;
-}
-
-.link {
-    text-decoration: none;
-}
-
-@media(max-width: 768px){
-    .nombre {
-        font-size: 30px;
+    body {
+      background: linear-gradient(180deg, #ffdcd8, #f0f0f0);
+      font-family: 'Work Sans', sans-serif;
     }
-}
+
+    .nombre {
+      font-family: reklamescriptw00-medium, cursive;
+      font-size: 50px;
+      font-weight: bold;
+      color: #524e4e;
+    }
+
+    h3 {
+      font-family: 'Work Sans', sans-serif;
+      letter-spacing: 0.15rem;
+      font-size: 20px;
+      color: #524e4e;
+    }
+
+    h4, h5 {
+      font-family: 'Futura', sans-serif;
+      font-size: 15px;
+      letter-spacing: 0.05em;
+      color: #8B0000;
+    }
+
+    .btn-clinica-alemana {
+      background-color: transparent;
+      color: #009A90;
+      border: 2px solid #009A90;
+      font-weight: 500;
+      border-radius: 8px;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .btn-clinica-alemana:hover {
+      background-color: #e0f4f3;
+      color: #007f79;
+      border-color: #007f79;
+    }
+
+    .btn-medsalud {
+      background-color: #009A90;
+      color: white;
+      border: none;
+      font-weight: 500;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn-medsalud:hover {
+      background-color: #007f79;
+    }
+
+    .logo-clinica {
+      height: 30px;
+    }
+
+    .whatsapp-float {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 100;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+    }
+
+    .whatsapp-float:hover {
+        transform: scale(1.1);
+    }
+
+    footer a {
+      color: #524e4e;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #009A90;
+    }
+
+    @media (max-width: 768px) {
+      .nombre {
+        font-size: 30px;
+      }
+    }

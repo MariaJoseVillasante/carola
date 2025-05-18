@@ -1,54 +1,114 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Carolina González Largo</title>
+    <!-- no mas de 160 caracteres -->
+    <meta name="description" content="Médico de la Universidad de Chile, especialidad de Pediatría, y Ginecología Pediátrica y de la Adolescencia, de la misma Universidad. Trabaja en la Clínica Alemana y en su consulta particular. ">
+    <meta name="keywords" content="pediatría, pediatra, adolescencia, ginecología, clinica, alemana, consulta, medsalud, doctora, dra, medico, infanto, juvenil">
+    <meta name="author" content="María José Villasante">
+    <meta name="email" content="hola@mariajosevillasante.cl">
+    <!-- Open Graph (Facebook, LinkedIn, WhatsApp, etc.) -->
+    <meta property="og:title" content="Consulta Carolina González Largo" />
+    <meta property="og:description" content="Contacta a la Dra. Carolina Gonzalez Largo, pediatra y ginecóloga infanto juvenil y agenda tu cita presencial u online." />
+    <meta property="og:image" content="https://carolinagonzalez.online" />
+    <meta property="og:url" content="https://carolinagonzalez.online" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CL" />
+    <title>Dra. Carolina González Largo</title>
+
     <!-- icono -->
     <!-- https://www.svgrepo.com/svg/202946/web-design -->
     <link rel="shortcut icon" href="assets/img/carola2.png" type="image/x-icon">
-    <!-- Include Bootstrap´s CSS and JS (este está al final) CDN links -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!-- font awesome CDN -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Oswald:wght@200;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500&display=swap" rel="stylesheet"/>
+
     <!-- link css -->
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<body>
-    <div class="text-center">
-        <h1 class="m-5 p-3 nombre">Dra. Carolina González Largo</h1>
-        <img src="assets/img/carola2.png" alt="" width="50%" srcset="" class="text-center rounded img-thumbnail mb-3">
-        <h4 class="m-2">Consulta | Carolina Gonzalez Largo | Pediatra | Chile</h4>
-        <h3 class="text-uppercase fw-lighter m-4">pediatra - ginecología infantojuvenil</h3>
-        <a href="https://www.clinicaalemana.cl/profesionales/perfil?rut=12662276-7" target="_blank" class="link link-secondary">
-            <p>Agenda - Consulta Clinica Alemana</p> 
+<body class="text-center">
+    <div class="container py-5">
+        <h1 class="mb-4 nombre">Dra. Carolina González Largo</h1>
+        <img src="assets/img/carola2.png" alt="Dra. Carolina González" class="rounded img-thumbnail mb-4" width="50%">
+
+        <h4 class="mb-2">Consulta Médica | Carolina González Largo | Pediatra | Chile</h4>
+        <h3 class="text-uppercase fw-light mb-4">Pediatra - Ginecología Infantojuvenil</h3>
+
+        <!-- Sección Clínica Alemana -->
+        <div class="mb-5">
+            <h5 class="mb-3 d-flex align-items-center justify-content-center">
+                <img src="assets/img/alemana.svg.png" alt="Clínica Alemana" class="logo-clinica">
+            </h5>
+            <div class="d-grid gap-3 col-lg-6 mx-auto">
+                <a href="https://www.clinicaalemana.cl/profesionales/perfil?rut=12662276-7" target="_blank" class="btn btn-clinica-alemana">
+                Agenda Consulta Presencial
+                </a>
+                <a href="https://agenda.clinicaalemana.cl/paciente?urlCallback=%2Fprofesional%2F97ec91e63200652962230a2cbef27c1apr5018904v1%3F" target="_blank" class="btn btn-clinica-alemana">
+                Agenda Teleconsulta
+                </a>
+            </div>
+        </div>
+
+        <!-- Sección Medsalud -->
+        <div class="mb-5">
+            <h5 class="mb-3">Medsalud Kennedy</h5>
+            <div class="d-grid gap-3 col-lg-6 mx-auto">
+                <a href="https://wa.me/56222343716/?text=Me%20gustaría%20pedir%20una%20hora%20presencial%20en%20Medsalud..." target="_blank" class="btn btn-medsalud d-flex align-items-center justify-content-center gap-2">
+                    <img src="assets/img/whatsapp-svgrepo-com.svg" alt="WhatsApp" width="20"> Consulta Presencial
+                </a>
+                <a href="https://wa.me/56222343716/?text=Me%20gustaría%20pedir%20una%20teleconsulta%20en%20Medsalud..." target="_blank" class="btn btn-medsalud d-flex align-items-center justify-content-center gap-2">
+                    <img src="assets/img/whatsapp-svgrepo-com.svg" alt="WhatsApp" width="20"> Teleconsulta
+                </a>
+                <a href="https://wa.me/56993964462/?text=Me%20gustaría%20contactar%20a%20la%20coordinadora..." target="_blank" class="btn btn-medsalud d-flex align-items-center justify-content-center gap-2">
+                    <img src="assets/img/whatsapp-svgrepo-com.svg" alt="WhatsApp" width="20"> Coordinadora - WhatsApp Directo
+                </a>
+            </div>
+        </div>
+    </div>
+    
+        <!-- WhatsApp Flotante -->
+        <a href="https://wa.me/56993964462/?text=Me%20gustaría%20pedir%20una%20hora..." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+            <img src="assets/img/whatsapp-svgrepo-com.svg" alt="WhatsApp" width="50" height="50">
         </a>
-        <a href="https://wa.me/56222343716/?text=Me%20gustaría%20pedir%20una%20hora..." target="_blank" class="link link-secondary" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
-            <p><img src="assets/img/whatsapp-svgrepo-com.svg" class="" alt="" width="20px">
-                Contacto - Consulta Kennedy Medsalud</p> 
-        </a>
-        <a href="https://wa.me/56222343716/?text=Me%20gustaría%20pedir%20una%20hora..." target="_blank" class="link link-secondary" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
-            <p><img src="assets/img/whatsapp-svgrepo-com.svg" class="" alt="" width="20px"> Agenda - Teleconsulta Medsalud</p>
-        </a>
-        <a href="https://wa.me/56993964462/?text=Me%20gustaría%20pedir%20una%20hora..." target="_blank" class="link link-secondary" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
-            <p><img src="assets/img/whatsapp-svgrepo-com.svg" class="" alt="" width="20px"> Contacto - Coordinadora</p>
-        </a>
+        <!-- fin WhatsApp Flotante -->
         
         <!-- inicio contador de visitas -->
         <div id="sfcdae27hp6s4jasqj67tcr47fbgjb4fgye" class="pe-none p-3">
             <script type="text/javascript" src="https://counter8.optistats.ovh/private/counter.js?c=dae27hp6s4jasqj67tcr47fbgjb4fgye&down=async&FCS_type=6254&FCS_coef=0.5&FCS_visi=1&FCS_clic=1&FCS_rest=standard_resc=000000&FCS_plus=0" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas gratis"><img src="https://counter8.optistats.ovh/private/contadorvisitasgratis.php?c=dae27hp6s4jasqj67tcr47fbgjb4fgye" border="0" title="contador de visitas gratis" alt="contador de visitas gratis"></a></noscript>
         </div>
+        <!-- https://www.contadorvisitasgratis.com/geozoom.php?c=dae27hp6s4jasqj67tcr47fbgjb4fgye&base=counter8&type_clic=1 -->
         <!-- fin contador de visitas -->
+        
+        <footer class="bg-white text-muted py-3 border-top">
+            <div class="container text-center">
+                <p class="mb-0">
+                    Con <i class="bi bi-suit-heart text-danger"></i> por 
+                    <a href="https://mariajosevillasante.cl/" class="link">MJVT</a>
+                </p>
+            </div>
+        </footer>
+
     </div>
+    <!-- no se si e necesario -->
     <!-- para que funcione js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <!-- para que funcione jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <!-- https://www.contadorvisitasgratis.com/geozoom.php?c=dae27hp6s4jasqj67tcr47fbgjb4fgye&base=counter8&type_clic=1 -->
+    <!-- no se si e necesario -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- link al archivo js (nuestros script deben ser lo último)-->
     <script src="assets/js/script.js"></script>
 </body>
 </html>
+
+
