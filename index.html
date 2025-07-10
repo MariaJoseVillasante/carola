@@ -92,7 +92,11 @@
 <body class="text-center">
     <div class="container py-5">
         <h1 class="mb-4 nombre">Dra. Carolina González Largo</h1>
-        <img src="assets/img/carola2.png" alt="Dra. Carolina González" class="rounded img-thumbnail mb-4" width="50%">
+        <picture>
+            <source srcset="assets/img/carola2.avif" type="image/avif">
+            <source srcset="assets/img/carola2.webp" type="image/webp">
+            <img src="assets/img/carola2.png" alt="Foto de Dra. Carolina González" class="rounded img-thumbnail mb-4" width="600" height="800">
+        </picture>
 
         <h4 class="mb-2">Consulta Médica | Carolina González Largo | Pediatra | Chile</h4>
         <h3 class="text-uppercase fw-light mb-4">Pediatra - Ginecología Infantojuvenil</h3>
@@ -100,13 +104,16 @@
         <!-- Sección Clínica Alemana -->
         <div class="mb-5">
             <h5 class="mb-3 d-flex align-items-center justify-content-center">
-                <img src="assets/img/alemana.svg.png" alt="Clínica Alemana" class="logo-clinica">
+                <picture>
+                    <source srcset="assets/img/alemana.svg.webp" type="image/webp">
+                    <img src="assets/img/alemana.svg.png" alt="Logo Clínica Alemana" class="logo-clinica" width="150" height="auto" loading="lazy">
+                </picture>
             </h5>
             <div class="d-grid gap-3 col-lg-6 mx-auto">
-                <a href="https://www.clinicaalemana.cl/profesionales/perfil?rut=12662276-7" target="_blank" class="btn btn-clinica-alemana">
+                <a href="https://www.clinicaalemana.cl/profesionales/perfil?rut=12662276-7"  aria-label="Perfil clínica Alemana" target="_blank" class="btn btn-clinica-alemana">
                 Agenda Consulta Presencial
                 </a>
-                <a href="https://agenda.clinicaalemana.cl/paciente?urlCallback=%2Fprofesional%2F97ec91e63200652962230a2cbef27c1apr5018904v1%3F" target="_blank" class="btn btn-clinica-alemana">
+                <a href="https://agenda.clinicaalemana.cl/paciente?urlCallback=%2Fprofesional%2F97ec91e63200652962230a2cbef27c1apr5018904v1%3F"  aria-label="Agenda Teleconsulta Clínica Alemana" target="_blank" class="btn btn-clinica-alemana">
                 Agenda Teleconsulta
                 </a>
             </div>
@@ -116,21 +123,21 @@
         <div class="mb-5">
             <h5 class="mb-3">Medsalud Kennedy</h5>
             <div class="d-grid gap-3 col-lg-6 mx-auto">
-                <a href="https://wa.me/56222343716/?text=Me%20gustaría%20pedir%20una%20hora%20presencial%20en%20Medsalud..." target="_blank" class="btn btn-medsalud d-flex align-items-center justify-content-center gap-2">
-                    <img src="assets/img/whatsapp-svgrepo-com.svg" alt="WhatsApp" width="20"> Consulta Presencial
+                <a href="https://wa.me/56222343716/?text=Me%20gustaría%20pedir%20una%20hora%20presencial%20en%20Medsalud..."  aria-label="WhatsApp Consulta Presencial" target="_blank" class="btn btn-medsalud d-flex align-items-center justify-content-center gap-2">
+                    <img src="assets/img/whatsapp-svgrepo-com.svg" alt="WhatsApp" width="20"  height="20"> Consulta Presencial
                 </a>
-                <a href="https://wa.me/56222343716/?text=Me%20gustaría%20pedir%20una%20teleconsulta%20en%20Medsalud..." target="_blank" class="btn btn-medsalud d-flex align-items-center justify-content-center gap-2">
-                    <img src="assets/img/whatsapp-svgrepo-com.svg" alt="WhatsApp" width="20"> Teleconsulta
+                <a href="https://wa.me/56222343716/?text=Me%20gustaría%20pedir%20una%20teleconsulta%20en%20Medsalud..."  aria-label="WhatsApp Teleconsulta" target="_blank" class="btn btn-medsalud d-flex align-items-center justify-content-center gap-2">
+                    <img src="assets/img/whatsapp-svgrepo-com.svg" alt="WhatsApp" width="20"  height="20"> Teleconsulta
                 </a>
-                <a href="https://wa.me/56993964462/?text=Me%20gustaría%20contactar%20a%20la%20coordinadora..." target="_blank" class="btn btn-medsalud d-flex align-items-center justify-content-center gap-2">
-                    <img src="assets/img/whatsapp-svgrepo-com.svg" alt="WhatsApp" width="20"> Coordinadora - WhatsApp Directo
+                <a href="https://wa.me/56993964462/?text=Me%20gustaría%20contactar%20a%20la%20coordinadora..."  aria-label="WhatsApp coordinadora" target="_blank" class="btn btn-medsalud d-flex align-items-center justify-content-center gap-2">
+                    <img src="assets/img/whatsapp-svgrepo-com.svg" alt="WhatsApp" width="20"  height="20"> Coordinadora - WhatsApp Directo
                 </a>
             </div>
         </div>
     </div>
     
         <!-- WhatsApp Flotante -->
-        <a href="https://wa.me/56993964462/?text=Me%20gustaría%20pedir%20una%20hora..." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+        <a href="https://wa.me/56993964462/?text=Me%20gustaría%20pedir%20una%20hora..."  aria-label="WhatsApp" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
             <img src="assets/img/whatsapp-svgrepo-com.svg" alt="WhatsApp" width="50" height="50">
         </a>
         <!-- fin WhatsApp Flotante -->
@@ -145,8 +152,8 @@
         <footer class="bg-white text-muted py-3 border-top">
             <div class="container text-center">
                 <p class="mb-0">
-                    Con <i class="bi bi-suit-heart text-danger"></i> por 
-                    <a href="https://mariajosevillasante.cl/" class="link">MJVT</a>
+                    Con <em class="bi bi-suit-heart text-danger"></em> por 
+                    <a href="https://mariajosevillasante.cl/"  aria-label="MJVT" class="link">MJVT</a>
                 </p>
             </div>
         </footer>
