@@ -1,10 +1,2 @@
-body {
-    background: linear-gradient(180deg, #ffdcd8, #f0f0f0);
-    font-family: 'Work Sans', sans-serif;
-}
+@forward 'variables';
 
-$color-texto: #524e4e;
-$color-acento: #009A90;
-$color-acento-hover: #007f79;
-$font-futura: 'Futura', 'Work Sans', sans-serif;
-$font-reklame: 'reklamescriptw00-medium', cursive, 'Comic Sans MS';
