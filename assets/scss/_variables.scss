@@ -1,16 +1,63 @@
-// 🎨 Colores
-$color-texto: #524e4e;
-$color-acento: #009A90;
-$color-acento-hover: #007f79;
-$color-rojo-titulo: #8B0000;
-$color-fondo-claro: #f0f0f0;
-$color-fondo-suave: #ffdcd8;
+/* Fonts */
+:root {
+  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "IBM Plex Serif",  sans-serif;
+  --nav-font: "Poppins",  sans-serif;
+}
 
-// 🅰️ Tipografías
-$font-base: 'Work Sans', sans-serif;
-$font-futura: 'Futura', $font-base;
-$font-script: 'reklamescriptw00-medium', cursive, 'Comic Sans MS';
+/* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
+:root { 
+  --background-color: #faf5f5; /* Background color for the entire website, including individual sections */
+  --default-color: #5b5b5b; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #524e4e; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #8b0000; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #f0f0f0; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+}
 
-// 📏 Espaciado & efectos
-$radius-botones: 8px;
-$transicion-suave: 0.3s ease-in-out;
+/* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
+:root {
+  --nav-color: #5b5b5b;  /* The default color of the main navmenu links */
+  --nav-hover-color: #8b0000; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #5b5b5b; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #8b0000; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+}
+
+/* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
+
+.light-background {
+  --background-color: #faf5f5;
+  --surface-color: #ffffff;
+}
+
+.dark-background {
+  --background-color: #8b0000;
+  --default-color: #ffffff;
+  --heading-color: #ffffff;
+  --surface-color: #fce7e4;
+  --contrast-color: #ffffff;
+}
+
+/* Smooth scroll */
+:root {
+  scroll-behavior: smooth;
+}
+
+// // 🎨 Colores
+// $color-texto: #524e4e;
+// $color-acento: #009A90;
+// $color-acento-hover: #007f79;
+// $color-rojo-titulo: #8B0000;
+// $color-fondo-claro: #f0f0f0;
+// $color-fondo-suave: #ffdcd8;
+
+// // 🅰️ Tipografías
+// $font-base: 'Work Sans', sans-serif;
+// $font-futura: 'Futura', $font-base;
+// $font-script: 'reklamescriptw00-medium', cursive, 'Comic Sans MS';
+
+// // 📏 Espaciado & efectos
+// $radius-botones: 8px;
+// $transicion-suave: 0.3s ease-in-out;
