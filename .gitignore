@@ -1,5 +1,9 @@
 **/.DS_Store
 
+para compilar css:
+
+sass assets/scss/main.scss assets/css/styles.css --style=compressed
+
 
 <!-- WhatsApp Flotante -->
 <a href="https://wa.me/56993964462/?text=Me%20gustaría%20pedir%20una%20hora..."  aria-label="WhatsApp" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
