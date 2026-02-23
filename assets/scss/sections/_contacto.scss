@@ -25,7 +25,8 @@
     }
 
     a {
-      color: var(--contrast-color);
+      color: color-mix(in srgb, var(--default-color), transparent 25%);
+      // color: var(--accent-color);
     }
 
     @media (max-width: 992px) {

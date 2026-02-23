@@ -6,9 +6,13 @@
 /////compilar///////
 para compilar 1 vez css:
 sass assets/scss/main.scss assets/css/styles.css --style=compressed
+nuevo:
+npx sass assets/scss/main.scss assets/css/styles.css --style=compressed
 
 para compilar automático todo el tiempo que este abierta la terminal:
 sass --watch assets/scss:assets/css
+nuevo:
+npx sass --watch assets/scss:assets/css
 
 
 
